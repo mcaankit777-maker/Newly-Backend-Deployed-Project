@@ -1,9 +1,10 @@
+import Customer from '../Models/customermodel.js';
 import express from 'express';
 import mongoose from 'mongoose';
 import cors from 'cors';
-// import dotenv from 'dotenv';
-import Customer from '../Models/customermodel.js';
-// dotenv.config();
+ import dotenv from 'dotenv';
+
+dotenv.config();
 
 mongoose.connect(process.env.MONGO_URL)
 .then(()=>console.log('Database Connected'))
