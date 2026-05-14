@@ -5,7 +5,7 @@ import cors from 'cors';
 import Customer from '../Models/customermodel.js';
 // dotenv.config();
 
-mongoose.connect('mongodb://127.0.0.1:27017/Customer-Project-Database?directConnection=true')
+mongoose.connect(process.env.MONGO_URL)
 .then(()=>console.log('Database Connected'))
 .catch(error=>console.log('Database Not Connected'));
 
