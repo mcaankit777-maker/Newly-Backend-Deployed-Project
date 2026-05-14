@@ -1,8 +1,10 @@
 import express from 'express';
 import mongoose from 'mongoose';
 import cors from 'cors';
-import dotenv from 'dotenv';
+
 import Customer from 'customermodel.js';
+
+import dotenv from 'dotenv';
 
 dotenv.config();
 
