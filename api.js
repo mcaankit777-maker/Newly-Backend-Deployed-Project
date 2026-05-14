@@ -2,7 +2,7 @@ import express from 'express';
 import mongoose from 'mongoose';
 import cors from 'cors';
 
-import Customer from 'customermodel.js';
+import Customer from './customermodel.js';
 
 import dotenv from 'dotenv';
 
