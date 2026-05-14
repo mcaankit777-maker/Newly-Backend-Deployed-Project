@@ -7,7 +7,7 @@ const CustomerSchema=new mongoose.Schema({
     customerContact:Number
 })
 
-const Customer=mongoose.model('Customer',CustomerSchema);
+const Customer=mongoose.model('customer',CustomerSchema);
 
 export default Customer;
 
