@@ -1,8 +1,8 @@
+import Customer from './Models/customermodel.js';
 import express from 'express';
 import mongoose from 'mongoose';
 import cors from 'cors';
 import dotenv from 'dotenv';
-import Customer from './Models/customermodel.js';
 
 dotenv.config();
 
